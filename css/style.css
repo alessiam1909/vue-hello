@@ -6,22 +6,24 @@
 
 body{
     background-color: rgb(243, 204, 255);
+    color: rgb(165, 85, 236);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #app{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container{
     width: 80%;
-    height: 50vh;
+    height: 80vh;
     background-color: rgb(208, 156, 250);
     border-radius: 20px;
-    margin: 20% auto;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-h1{
@@ -29,4 +31,21 @@ body{
     width: 30%;
     margin: 30px auto;
     text-align: center;
+}
+
+.container-img{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 208);
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+
+img{
+    width: 100%;
+    padding: 3px;
+    border-radius: 20px;
+    height: 100%;
 }
